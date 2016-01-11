@@ -1,0 +1,17 @@
+for rango 0…10{
+		if rango%5 == 0 {
+		Print(“\(rango) Bingo!!!”)
+			
+			else if rango%2 == 0{
+			Print(“\(rango) par!!!”)
+			}
+
+			else if rango%2 != 0{
+			Print(“\(rango) impar!!!”)
+			}
+
+			else if rango > 30 && rango < 40 {
+			Print(“\(rango) Viva Swift!!!”)
+			}
+		}
+}
